@@ -4,11 +4,13 @@
 GITHUB_REPO_URL="https://siminsadanandan@github.com/siminsadanandan/perft.git"
 GITHUB_REPO_AUTHKEY=""
 
+REGISTRY_ENDPOINT="https://index.docker.io/v1/"
 DOCKER_USERNAME="sisadana"
 DOCKER_PASSWORD=""
 DOCKER_REPO_NAME="sisadana"
 DOCKER_IMAGE_NAME="perft"
 DOCKER_IMAGE_TAG="1.0"
+DOCKER_EMAIL="simin.sadanandan@gmail.com"
 
 ##Clone the repo
 git clone ${GITHUB_REPO_URL}
