@@ -3,7 +3,7 @@
 ## Config
 GITHUB_REPO_NAME="https://github.com/siminsadanandan/perft.git"
 GITHUB_REPO_AUTHKEY=""
-GITHUB_REPO_USR=""
+GITHUB_REPO_USR="siminsadanandan"
 
 
 DOCKER_USERNAME=sisadana
