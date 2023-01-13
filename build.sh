@@ -15,7 +15,9 @@ git clone ${GITHUB_REPO_URL}
 
 cd perft
 
+##Login to docker repo to push the image that is build
 echo $DOCKER_PASSWORD | docker login --username $DOCKER_USERNAME --password-stdin
 
+##Build and push the image to repo
 docker build --no-cache \
   -t "${DOCKER_REPO_NAME}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}" .
