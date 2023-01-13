@@ -8,7 +8,7 @@ spec:
   containers:
   - name: kaniko-builder-git
     image: gcr.io/kaniko-project/executor:debug
-    args: ["--context=https://siminsadanandan@github.com/siminsadanandan/perft",
+    args: ["--context=https://github.com/siminsadanandan/perft.git",
             "--destination=sisadana/perft:1.0"]
     volumeMounts:
       - name: kaniko-secret
