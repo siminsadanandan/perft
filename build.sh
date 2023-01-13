@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Config
-GITHUB_REPO_URL="https://siminsadanandan@github.com/siminsadanandan/perft.git"
+GITHUB_REPO_URL="https://github.com/siminsadanandan/perft.git"
 GITHUB_REPO_AUTHKEY=""
 
 REGISTRY_ENDPOINT="https://index.docker.io/v1/"
