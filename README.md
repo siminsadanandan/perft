@@ -22,4 +22,4 @@ export DOCKER_EMAIL="simin.sadanandan@gmail.com"`
 
 2. run kubectl.cmd.sh from a _kubectl_ shell
 - this will create a secret to store the docker registry credentials
-- run the script _kaniko-builder-git.yaml_ which pulls the project from the provided public github repo, run the Kaniko build container and build the docker container using the provided _kaniko-builder-git.yaml_ file. Once the contaier is build correctly the image is automatically pushed to the docker repo. 
+- the Kaniko/build pod will be created as part of the above step. To start with it will pulls this project from the provided public github repo, downlaod/run the Kaniko build container and build the docker container using the provided _kaniko-builder-git.yaml_ and Dockerfile file. Once the contaier is build correctly the image is automatically pushed to the configured docker repo using the docker secret. 
