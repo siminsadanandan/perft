@@ -12,7 +12,7 @@ Docker shim is removed in the latest Kubernetes/k8, so DND image building is not
 
 1. export all the required variables or can be sourced in from the pipeline env variables
 
--`export REGISTRY_ENDPOINT="https://index.docker.io/v1/"
+ -`export REGISTRY_ENDPOINT="https://index.docker.io/v1/"
 export DOCKER_USERNAME="sisadana"
 export DOCKER_PASSWORD=""
 export DOCKER_REPO_NAME="sisadana"
