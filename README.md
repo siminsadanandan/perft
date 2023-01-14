@@ -20,4 +20,4 @@ export DOCKER_IMAGE_NAME="perft"
 export DOCKER_IMAGE_TAG="1.0"
 export DOCKER_EMAIL="simin.sadanandan@gmail.com"`
 
-2. run kubectl.cmd.sh from _kubectl shell
+2. run kubectl.cmd.sh from a _kubectl shell
