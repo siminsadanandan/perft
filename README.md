@@ -11,6 +11,7 @@ __ How to build the docker image in user space or in unpriviledge mode or withou
 Docker shim is removed in the latest Kubernetes/k8, so DND image building is not more an option. Here we are exploring Kaniko to build docker image in a k8 deployment with only user space access. 
 
 1. export all the required variables or can be sourced in from the pipeline env variables
+
 -`export REGISTRY_ENDPOINT="https://index.docker.io/v1/"
 export DOCKER_USERNAME="sisadana"
 export DOCKER_PASSWORD=""
