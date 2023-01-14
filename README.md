@@ -1,8 +1,8 @@
 # PERFT - Bunch of utilities in docker
 
-An alpine based Docker image with utilites telnet, curl, jq
+An alpine based Docker image with utilites telnet, curl, jq.
 
-** How to build the docker image in a unrestricted env? **
+_How to build the docker image in a unrestricted env?
 
 You can use the provided Dockerfile to build the image.
 
